@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04C05B8D1C91166C007E7885 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C05B8C1C91166C007E7885 /* main.m */; };
-		04C05B901C91166C007E7885 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C05B8F1C91166C007E7885 /* AppDelegate.m */; };
 		04C05B931C91166C007E7885 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C05B921C91166C007E7885 /* ViewController.m */; };
-		04C05B961C91166C007E7885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C05B941C91166C007E7885 /* Main.storyboard */; };
-		04C05B981C91166C007E7885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C05B971C91166C007E7885 /* Assets.xcassets */; };
-		04C05B9B1C91166C007E7885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C05B991C91166C007E7885 /* LaunchScreen.storyboard */; };
 		04C05BA61C91166C007E7885 /* Goukan2_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C05BA51C91166C007E7885 /* Goukan2_0Tests.m */; };
 		04C05BB11C91166C007E7885 /* Goukan2_0UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C05BB01C91166C007E7885 /* Goukan2_0UITests.m */; };
+		04C05BD01C911B94007E7885 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C05BC61C911B94007E7885 /* AppDelegate.m */; };
+		04C05BD11C911B94007E7885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C05BC71C911B94007E7885 /* LaunchScreen.storyboard */; };
+		04C05BD21C911B94007E7885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C05BC91C911B94007E7885 /* Main.storyboard */; };
+		04C05BD31C911B94007E7885 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04C05BCB1C911B94007E7885 /* Info.plist */; };
+		04C05BD41C911B94007E7885 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C05BCC1C911B94007E7885 /* main.m */; };
+		04C05BD51C911B94007E7885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C05BCE1C911B94007E7885 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +37,21 @@
 
 /* Begin PBXFileReference section */
 		04C05B881C91166C007E7885 /* Goukan2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Goukan2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		04C05B8C1C91166C007E7885 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		04C05B8E1C91166C007E7885 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		04C05B8F1C91166C007E7885 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		04C05B911C91166C007E7885 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		04C05B921C91166C007E7885 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		04C05B951C91166C007E7885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		04C05B971C91166C007E7885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		04C05B9A1C91166C007E7885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		04C05B9C1C91166C007E7885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04C05BA11C91166C007E7885 /* Goukan2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Goukan2.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C05BA51C91166C007E7885 /* Goukan2_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Goukan2_0Tests.m; sourceTree = "<group>"; };
 		04C05BA71C91166C007E7885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04C05BAC1C91166C007E7885 /* Goukan2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Goukan2.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C05BB01C91166C007E7885 /* Goukan2_0UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Goukan2_0UITests.m; sourceTree = "<group>"; };
 		04C05BB21C91166C007E7885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C05BC51C911B94007E7885 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04C05BC61C911B94007E7885 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04C05BC81C911B94007E7885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04C05BCA1C911B94007E7885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04C05BCB1C911B94007E7885 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C05BCC1C911B94007E7885 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04C05BCE1C911B94007E7885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,25 +102,14 @@
 		04C05B8A1C91166C007E7885 /* Goukan2.0 */ = {
 			isa = PBXGroup;
 			children = (
-				04C05B8E1C91166C007E7885 /* AppDelegate.h */,
-				04C05B8F1C91166C007E7885 /* AppDelegate.m */,
+				04C05BBE1C911B94007E7885 /* BaseView */,
+				04C05BC41C911B94007E7885 /* Common */,
+				04C05BCD1C911B94007E7885 /* Resources */,
+				04C05BCF1C911B94007E7885 /* Vendors */,
 				04C05B911C91166C007E7885 /* ViewController.h */,
 				04C05B921C91166C007E7885 /* ViewController.m */,
-				04C05B941C91166C007E7885 /* Main.storyboard */,
-				04C05B971C91166C007E7885 /* Assets.xcassets */,
-				04C05B991C91166C007E7885 /* LaunchScreen.storyboard */,
-				04C05B9C1C91166C007E7885 /* Info.plist */,
-				04C05B8B1C91166C007E7885 /* Supporting Files */,
 			);
 			path = Goukan2.0;
-			sourceTree = "<group>";
-		};
-		04C05B8B1C91166C007E7885 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				04C05B8C1C91166C007E7885 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		04C05BA41C91166C007E7885 /* Goukan2.0Tests */ = {
@@ -138,6 +128,81 @@
 				04C05BB21C91166C007E7885 /* Info.plist */,
 			);
 			path = Goukan2.0UITests;
+			sourceTree = "<group>";
+		};
+		04C05BBE1C911B94007E7885 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				04C05BBF1C911B94007E7885 /* Collection */,
+				04C05BC01C911B94007E7885 /* Find */,
+				04C05BC11C911B94007E7885 /* Me */,
+				04C05BC21C911B94007E7885 /* Notice */,
+				04C05BC31C911B94007E7885 /* Personal */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		04C05BBF1C911B94007E7885 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		04C05BC01C911B94007E7885 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		04C05BC11C911B94007E7885 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		04C05BC21C911B94007E7885 /* Notice */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notice;
+			sourceTree = "<group>";
+		};
+		04C05BC31C911B94007E7885 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		04C05BC41C911B94007E7885 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				04C05BC51C911B94007E7885 /* AppDelegate.h */,
+				04C05BC61C911B94007E7885 /* AppDelegate.m */,
+				04C05BC71C911B94007E7885 /* LaunchScreen.storyboard */,
+				04C05BC91C911B94007E7885 /* Main.storyboard */,
+				04C05BCB1C911B94007E7885 /* Info.plist */,
+				04C05BCC1C911B94007E7885 /* main.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		04C05BCD1C911B94007E7885 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04C05BCE1C911B94007E7885 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04C05BCF1C911B94007E7885 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +311,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04C05B9B1C91166C007E7885 /* LaunchScreen.storyboard in Resources */,
-				04C05B981C91166C007E7885 /* Assets.xcassets in Resources */,
-				04C05B961C91166C007E7885 /* Main.storyboard in Resources */,
+				04C05BD11C911B94007E7885 /* LaunchScreen.storyboard in Resources */,
+				04C05BD21C911B94007E7885 /* Main.storyboard in Resources */,
+				04C05BD51C911B94007E7885 /* Assets.xcassets in Resources */,
+				04C05BD31C911B94007E7885 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +339,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C05BD01C911B94007E7885 /* AppDelegate.m in Sources */,
+				04C05BD41C911B94007E7885 /* main.m in Sources */,
 				04C05B931C91166C007E7885 /* ViewController.m in Sources */,
-				04C05B901C91166C007E7885 /* AppDelegate.m in Sources */,
-				04C05B8D1C91166C007E7885 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,20 +377,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		04C05B941C91166C007E7885 /* Main.storyboard */ = {
+		04C05BC71C911B94007E7885 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				04C05B951C91166C007E7885 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		04C05B991C91166C007E7885 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04C05B9A1C91166C007E7885 /* Base */,
+				04C05BC81C911B94007E7885 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		04C05BC91C911B94007E7885 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C05BCA1C911B94007E7885 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -415,8 +481,7 @@
 		04C05BB61C91166C007E7885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Goukan2.0/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Goukan2.0/Common/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mr-z.Goukan2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,8 +491,7 @@
 		04C05BB71C91166C007E7885 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Goukan2.0/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Goukan2.0/Common/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mr-z.Goukan2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -501,6 +565,7 @@
 				04C05BB71C91166C007E7885 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04C05BB81C91166C007E7885 /* Build configuration list for PBXNativeTarget "Goukan2.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +574,7 @@
 				04C05BBA1C91166C007E7885 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04C05BBB1C91166C007E7885 /* Build configuration list for PBXNativeTarget "Goukan2.0UITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +583,7 @@
 				04C05BBD1C91166C007E7885 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
